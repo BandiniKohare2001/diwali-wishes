@@ -1,0 +1,145 @@
+.greeting-container{
+    background-image: radial-gradient(
+        circle farthest-corner at 10.2% 55.8%,
+        rgba(252, 37, 103, 1) 0%,
+        rgba(250, 38, 151, 1) 46.2%,
+        rgba(186, 8, 181, 1) 90.1%,
+        rgba(252, 37, 103, 1) 10%
+      );
+      color: white !important;
+    
+    border-radius: 5px;
+    box-shadow: 0 0 10px #f8e8e8;
+    padding:40px 20px;
+    position: relative;
+    width: 50%;
+    display: block;
+    margin: 30px auto;
+ 
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-weight: bold;
+   
+}
+
+.from-text{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.lamp-img{
+    height: 100px;
+    position: absolute;
+    top:10px;
+}
+
+.right-lamp{
+
+    right:10px;
+}
+.to-text{
+    margin-top: 100px;
+    font-size: 25px;
+}
+.greeting-text{
+    font-size: 20px;
+}
+.input-box{
+    margin: 20px;
+    padding: 12px 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.theme-1{ 
+    background-color: #FFFFFF;
+    background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+    
+}
+.theme-2{
+    background-color: #FF9A8B;
+    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+        
+}
+.theme-3{
+    background-color: #A9C9FF;
+    background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+    
+}
+.theme-4{
+    background-color: #FA8BFF;
+    background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);    
+}
+.theme-5{
+        background-image: radial-gradient(
+          circle farthest-corner at 10.2% 55.8%,
+          rgba(252, 37, 103, 1) 0%,
+          rgba(250, 38, 151, 1) 46.2%,
+          rgba(186, 8, 181, 1) 90.1%
+        );
+        color: white !important;
+      }
+    
+
+.link-generate{
+    text-align: center;
+    background-color: #e6ffff;
+    padding: 10px;
+    margin-top: 50px;
+    font-size: 20px;
+    
+}
+.create-your-own{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 20px;
+}
+.copy-img{
+    margin-left: 100px;
+    height: 20px;
+    cursor: pointer;
+}
+.input-container{
+ margin-left: 150px;
+}
+@media screen and (max-width:768px){
+    .greeting-container{
+        width: 80%;
+    }
+    .greeting-text{
+        margin-bottom: 30px;
+        font-size: 18px;
+    }
+    .create-your-own{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .from-text{
+        font-size: 18px;
+        font-weight:700;
+    }
+    .to-text{
+        margin-top: 50px;
+        font-size: 22px;
+    }
+    .lamp-img{
+        height: 70px;
+    }
+    .diya-img{
+        height: 50px;
+        width: 50px;
+        position:relative;
+       left: 80px;
+       bottom: 50px;
+    }
+    .link-generate{
+        width: 90%;
+        position: relative;
+        padding-top: 30px;
+    }
+    .copy-img{
+        display: none;
+    }
+}
+
